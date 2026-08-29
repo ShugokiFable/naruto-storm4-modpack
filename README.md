@@ -1,45 +1,41 @@
-# Naruto Shippuden Ultimate Ninja Storm 4 — Woo Modpack
+# Naruto Shippuden Ultimate Ninja Storm 4 — Woomodpack (Modpack)
 
-**Community modpack** for _Naruto Shippuden Ultimate Ninja Storm 4_, based on the
-"Woo" mod collection. Includes gameplay tweaks, character overhauls, and balance
-adjustments. 3.28 GB uncompressed.
+A curated modpack for **Naruto Shippuden Ultimate Ninja Storm 4** (PC).
 
-> ⚠️ **Note:** This is a **modpack repository** — it contains installation
-> documentation and attribution. The full modpack archive (~3.28 GB) is
-> distributed separately (see Releases or external mirror) because it exceeds
-> GitHub's 2 GB upload limit.
+## Download
 
-## Contents
+The full modpack is **3.28 GB** (9.29 GB uncompressed), which is over GitHub's 2 GB
+limit per file — so it's uploaded ultra-compressed with **7z and split into 2 parts**
+on the [v1.0.0 release](../../releases/tag/v1.0.0).
 
-The modpack bundles several community-created mods under `Naruto To Boruto 2.0/`:
+1. Download **both** parts from the release:
+   - `Naruto.Shippuden.Ultimate.Ninja.Storm.4.Woomodpack-2.7z.001` (1,110,879,396 bytes)
+   - `Naruto.Shippuden.Ultimate.Ninja.Storm.4.Woomodpack-2.7z.002` (1,110,879,396 bytes)
+2. Put both parts in the **same folder**.
+3. Extract:
 
-- **MovesetPlus** — expanded combat moveset
-- **Skill Slot Expander** — unlock additional skill slots
-- **Essentials** — bug fixes and quality-of-life
-- **Susanoo Jump** — movement tweak
-- **And 600+ more .xfbin mods**
+```bat
+:: Windows — 7-Zip installed
+7z x "Naruto.Shippuden.Ultimate.Ninja.Storm.4.Woomodpack-2.7z.001"
+```
 
-## Installation
+```sh
+# macOS / Linux — p7zip
+7z x "Naruto.Shippuden.Ultimate.Ninja.Storm.4.Woomodpack-2.7z.001"
+```
 
-1. Extract the modpack to your game directory
-2. Run `Installation_Instructions.txt`
-3. Launch via the game's mod loader
+7-Zip auto-detects the multi-part archive (Blocks = 2). Output: **9.29 GB** uncompressed,
+5,841 files, 427 folders.
 
-## File structure
+## What's inside
 
-- `More mods/` — primary mod directory (.xfbin files)
-- `Naruto To Boruto 2.0/` — main game mod
-  - `moddingapi/` — mod loader + config
-  - `data_win32/` — game data (effects, skills, sound, etc.)
+- Mod files (`.xfbin` format) for Storm 4 — effects, skills, sound, characters
+- `My save/STORM4.S` — a personal save (130 KB)
+
+## Notes
+
+- Personal modpack — see [NOTES.md](NOTES.md) for details and archive pointers.
 
 ## License
 
-Each mod is the property of its respective author. This pack is a community
-curation only — no commercial redistribution. Authors: replace with
-`UNINSTALL.txt` if present to opt-out.
-
-## Release assets
-
-Full pack archive distributed via external mirror (too large for GitHub):
-- `Naruto Shippuden Ultimate Ninja Storm 4 Woomodpack.zip` (3.28 GB)
-
+[MIT](LICENSE)
